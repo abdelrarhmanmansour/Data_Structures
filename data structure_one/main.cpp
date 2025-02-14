@@ -204,6 +204,19 @@ public:
         }
         cout << " -> nullptr" << "\n";
     }
+    // this is function to traverse in Forward List;
+// create iterator;
+// start from begin to end;
+// important: it is pointer so we make *it to return values;
+// or using for each;
+    void Show_Forward_List(forward_list<int>l)
+    {
+        forward_list<int>::iterator it;
+        for(it=l.begin(); it!=l.end(); it++)
+        {
+            cout << *it << " -> ";
+        }
+    }
 };
 int main()
 {
