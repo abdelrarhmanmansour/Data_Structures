@@ -183,7 +183,7 @@ public:
             pop_front();
             return;
         }
-        node*p=head;
+        noode*p=head;
         for(int i=1; i<rank_&&p->next!=nullptr; i++)
         {
             p=p->next;
@@ -194,8 +194,8 @@ public:
             pop_back();
             return;
         }
+        noode*temp=p->next;
         p->next=p->next->next;
-        delete p->next;
     }
     void print()
     {
