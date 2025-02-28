@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1740729256 source:d:\route[basics]\create data_structures from scratch\bst\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<vector>
+	<exception>
+	<algorithm>
+	<vector>
+	<forward_list>
+	<list>
+	<stack>
+	<queue>
+	<numeric>
+
