@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1741534642 source:d:\route[basics]\create data_structures from scratch\graph\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<vector>
+	<exception>
+	<algorithm>
+	<vector>
+	<forward_list>
+	<list>
+	<stack>
+	<queue>
+	<set>
+	<map>
+	<unordered_set>
+	<unordered_map>
+	<numeric>
+
